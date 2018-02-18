@@ -1,0 +1,1206 @@
+@media all and (min-width:320px) and (max-width:767px){
+.intro_bigmain{
+	width:100%;
+	height:280px;
+	margin-bottom:80px;
+	position:relative;}
+	
+.left_main{
+	width:70%;
+	height:280px;
+	position:absolute;
+	left:0;
+	top:0;
+	background:url(../img/intro/intromain.jpg) center center no-repeat !important;
+	background-size:cover !important;} /* 맨 위 왼쪽 사진 */
+
+#txtlzr{
+			font-family: 'Rokkitt', serif;
+            font-size: 20px;
+			font-weight:bold;
+            width: 290px;
+            height: 50px;
+			line-height:40px;
+			text-align:center;
+            margin-left: 100px;
+            margin-top: 50px;;
+			letter-spacing:3px;
+        	z-index:10;
+			color:#000;
+			background:rgba(84,134,151,0.9);
+			position:absolute;
+			bottom:80px;
+			right:15px;}
+
+.intro_border{
+	width: 280px;
+    height: 60px;
+	line-height:60px;
+	border:#54a1bb solid 1px;
+	position:absolute;
+	bottom:73px;
+	right:5px;
+	z-index:7;
+	}
+
+/*----------------------------------------------------맨위 끝-----------*/
+
+/*-------------------------------------brand company 시작*/
+.intro_brand{
+	width:100%;
+	height:500px;
+	position:relative;
+	top:0;
+	left:0;
+	margin-bottom:130px;
+	background:#fff;}/*article 모바일*/
+.brandcompany{
+	width:100%;
+	height:69px;
+	border-bottom:#000 dashed 2px;
+	margin:auto;}
+.brandcompany img{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;
+	}
+.brandcompany h4{
+	font-family: 'Oswald', sans-serif;
+	font-size:13px;
+	letter-spacing:2px;
+	margin-left:10px;
+	line-height:117px;
+	text-align:left;
+	}
+
+mark{
+	font-weight:bold;
+	background-color:#fad5d7;}	
+.commonsense{
+	width:100%;
+	height:240px;
+	margin:auto;
+	margin-top:50px;
+	background:#fff;}/*lets live 있는 칸*/
+.commonsense p,.commonsense h4{
+	text-align:center;
+	}
+.commonsense p{
+	font-family: 'Bitter', serif;
+	line-height:20px;
+	font-size:13px;}
+.commonsense h4{
+	font-family: 'Oswald', sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	line-height:25px;
+	margin-bottom:15px;}
+
+.common_pic{
+	width:100%;
+	height:250px;
+	margin:50px auto;
+	background:url(../img/intro/commonpic.png) center center no-repeat !important;
+	background-size:100% 250px !important;}
+	
+/*----------------------------------------------------brand company 끝-----------*/
+/*---------------------------------------5개 시작-----------*/
+.five{ 
+	width:100%;
+	height:1550px;
+	padding-top:60px;}/*article 이름*/
+
+.aim_five{
+	width:100%;
+	height:875px;
+	position:relative;
+	margin:auto;}/*------------------5개 감싼애*/
+.aim_five>div{
+	opacity:0;}
+.aim_five>div>div{ 
+	background-size:100% 100% !important;
+	background-position:center center !important;
+	transition:all 0.6s;
+	-moz-transition:all 0.6s;
+	-ms-transition:all 0.6s;
+	-o-transition:all 0.6s;
+	-webkit-transition:all 0.6s;}
+
+.aim_five>div>div:hover{
+	background-size:110% 110% !important;
+	background-position:center center !important;
+	}
+	
+#five_box{
+	width:100%;
+	height:300px;
+	float:left;
+	position:relative;
+	left:0;}/*박스 공통사항*/
+	
+#five_subject{
+	width:195px;
+	height:26px;
+	border-bottom:#000 dashed 1px;
+	position:absolute;
+	font-family: 'Acme', sans-serif;
+	font-size:18px;
+	font-weight:bold;}/*제목 공통사항*/
+
+#co_p{
+	font-family: 'Bitter', serif;
+	line-height:24px;
+	font-size:11px;} /*내용 공통사항*/
+	
+/*첫번째 co-work*/
+.five_1{
+	top:0;
+	}
+	
+.co_work p{
+	margin-left:50px;}	
+	
+.co_pic{
+	width:243px;
+	height:165px;
+	position:absolute;
+	top:50px;
+	left:45px;
+	background:url(../img/intro/five1.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.co_ment{
+	width:100%;
+	position:absolute;
+	left:0px;
+	bottom:20px;
+	background:#fff;}
+	
+/*두번째 custom-made*/
+.five_2{
+	top:0;}
+
+.custom_made p{
+	margin-left:10px;}	
+	
+.custom_pic{
+	width:242px;
+	height:188px;
+	position:absolute;
+	top:90px;
+	left:75px;
+	background:url(../img/intro/five2.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.custom_ment{
+	width:100%;
+	position:absolute;
+	left:0px;
+	top:50px;}
+	
+/*세번째 beautiful*/
+
+.five_3{
+	top:0;}
+
+.beautiful{
+	margin-left:80px;}
+.beautiful p{
+	margin-left:55px;}	
+	
+.beautiful_pic{
+	width:185px;
+	height:185px;
+	position:absolute;
+	top:60px;
+	left:5px;
+	background:url(../img/intro/five3.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.beafutiful_ment{
+	width:130px;
+	position:absolute;
+	left:187px;
+	top:90px;}	
+	
+/*두번째줄 공통사항------------------------------------*/
+#five_box2{
+	width:100%;
+	height:335px;
+	margin:auto;
+	float:left;
+	position:relative;}/*두번째라인 박스 공통사항*/	
+	
+	
+/*네번째 considering*/
+
+.five_4{
+	top:20px;}
+
+.considering{
+	margin-left:10px;}
+.considering p{
+	margin-left:110px;}	
+	
+.considering_pic{
+	width:296px;
+	height:193px;
+	position:absolute;
+	top:40px;
+	left:5px;
+	background:url(../img/intro/five4.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.considering_ment{
+	width:200px;
+	position:absolute;
+	left:50px;
+	top:240px;}	
+
+
+/*다섯번째 comfortable*/
+
+.five_5{
+	top:20px;}
+
+.comfortable p{
+	margin-left:10px;}	
+	
+.comfortable_pic{
+	width:284px;
+	height:189px;
+	position:absolute;
+	top:40px;
+	left:10px;
+	background:url(../img/intro/five5.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.comfortable_ment{
+	width:200px;
+	position:absolute;
+	left:50px;
+	top:240px;}	
+
+/*------------------------------------------------------------------------5개끝*/
+/*--------------------------------Mission----*/
+
+.mission{
+	width:100%;
+	height:600px;}/*article이름*/
+
+.missionbox{
+	width:100%;
+	height:450px;
+	position:relative;
+	top:5px;
+	left:5px;}/*감싼박스 이름*/
+	
+.mission_sub{
+	width:200px;
+	height:65px;
+	line-height:65px;
+	border-bottom:#000 dashed 2px;}/*mission이랑 로고있는 거*/
+.mission_sub img{
+	margin-top:-13px;
+	float:left;}
+.mission_sub h5{
+	font-family: 'Rokkitt', serif;
+	font-size:20px;
+	letter-spacing:1px;
+	margin-left:0px;
+	position:absolute;
+	top:20px;
+	left:50px;
+	}
+	
+.mission_pic{
+	width:95%;
+	height:306px;
+	border:#000 solid 1px;
+	background:url(../img/intro/missionpic.png) center center no-repeat !important;
+	background-size:90% 90% !important;
+	position:absolute;
+	top:80px;
+	left:0px;
+	transition:all 0.6s;
+	-moz-transition:all 0.6s;
+	-ms-transition:all 0.6s;
+	-o-transition:all 0.6s;
+	-webkit-transition:all 0.6s;
+	cursor:pointer;
+	background:#ff0;}
+
+.mission_pic:hover{
+	background-size:90% 90% !important;
+	background-position:center center !important;}
+
+.mission_ment{
+	width:100%px;
+	height:130px;
+	position:absolute;
+	top:440px;
+	left:40px;}/* 오른쪽 글씨 박스*/
+.mission_ment h5{
+	font-family: 'Monda', sans-serif;
+	font-size:20px;
+	text-align:center;}
+.mission_ment p{
+	font-family: 'Bitter', serif;
+	font-size:15px;
+	font-weight:lighter;
+	text-align:center;
+	line-height:25px;
+	margin-top:30px;}
+	
+
+/*box */
+.tri_box{
+	opacity:0;
+	width:50px;
+	height:50px;
+	position:fixed;
+	top:80%;
+	right:20px;
+	cursor:pointer;
+	display:none;}
+.tri_box>p{
+	text-align:center;
+	line-height:75px;
+	letter-spacing:1px;
+	font-weight:bold;
+	font-family: 'Alegreya', serif;}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid black;
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+
+
+
+
+ }
+ /*mobile end*/
+ /*↓ipad start*/
+@media all and (min-width:768px) and (max-width:1024px) {
+section{
+	width:100%;
+	}
+section:after{
+	content:"";
+	display:block;
+	clear:both;}
+.intro_bigmain{
+	width:100%;
+	height:450px;
+	margin-bottom:120px;
+	position:relative;}/*article 아이패드*/
+	
+.left_main{
+	width:630px;
+	height:450px;
+	position:absolute;
+	left:0;
+	top:0;
+	background:url(../img/intro/intromain.jpg) center center no-repeat !important;
+	background-size:cover !important;} /* 맨 위 왼쪽 사진 */
+
+#txtlzr{
+			font-family: 'Rokkitt', serif;
+            font-size: 40px;
+			font-weight:bold;
+            width: 600px;
+            height: 60px;
+			line-height:60px;
+			text-align:center;
+            margin-left: 100px;
+            margin-top: 50px;;
+			letter-spacing:3px;
+        	z-index:10;
+			color:#000;
+			background:rgba(84,134,151,0.9);
+			position:absolute;
+			bottom:50px;
+			left:30px;}
+
+.intro_border{
+	width: 590px;
+    height:70px;
+	line-height:70px;
+	border:#54a1bb solid 1px;
+	position:absolute;
+	bottom:45px;
+	left:150px;
+	z-index:7;
+	}
+
+/*----------------------------------------------------맨위 끝-----------*/
+
+/*-------------------------------------brand company 시작*/
+.intro_brand{
+	width:100%;
+	height:600x;
+	position:relative;
+	top:0;
+	left:50%;
+	margin-left:-387px;
+	margin-bottom:150px;
+	background:#fff;} /*article 아이패드*/
+.brandcompany{
+	margin-left:90px;
+	width:600px;
+	height:50px;
+	border-bottom:#000 dashed 2px;
+	background:#fff;}/*로고+제목*/
+.brandcompany img{
+	margin-top:-8px;
+	float:left;
+	}
+.brandcompany h4{
+	font-family: 'Oswald', sans-serif;
+	font-size:25px;
+	letter-spacing:2px;
+	margin-left:10px;
+	line-height:74px;
+	text-align:left;
+	}
+
+mark{
+	font-weight:bold;
+	background-color:#fad5d7;}	
+.commonsense{
+	width:580px;
+	height:230px;
+	margin-left:100px;
+	margin-top:50px;
+	background:#fff;}/*lets live 글만있느 박스 아이패드*/
+.commonsense p,.commonsense h4{
+	text-align:center;
+	}
+.commonsense p{
+	font-family: 'Bitter', serif;
+	line-height:25px;
+	font-size:13px;}
+.commonsense h4{
+	font-family: 'Oswald', sans-serif;
+	font-size:25px;
+	font-weight:normal;
+	line-height:32px;
+	margin-bottom:20px;}
+
+.common_pic{
+	width:600px;
+	height:300px;
+	margin:50px 0 50px 95px;
+	background:url(../img/intro/commonpic.png) center center no-repeat !important;
+	background-size:cover !important;}
+	
+/*----------------------------------------------------brand company 끝-----------*/
+/*---------------------------------------5개 시작-----------*/
+.five{ 
+	width:100%;
+	height:560px;
+	position:relative;}/*article 이름*/
+
+.aim_five{
+	width:100%;
+	height:560px;
+	margin:auto;
+	position:relative;
+	}/*------------------5개 감싼애 아이패드*/
+.aim_five>div{
+	opacity:0;}
+.aim_five>div>div{ 
+	background-size:100% 100% !important;
+	background-position:center center !important;
+	transition:all 0.6s;
+	-moz-transition:all 0.6s;
+	-ms-transition:all 0.6s;
+	-o-transition:all 0.6s;
+	-webkit-transition:all 0.6s;}
+
+.aim_five>div>div:hover{
+	background-size:110% 110% !important;
+	background-position:center center !important;
+	}
+	
+#five_box{
+	width:180px;
+	height:260px;
+	float:left;
+	position:relative;}/*박스 공통사항*/
+	
+#five_subject{
+	width:180px;
+	height:22px;
+	border-bottom:#000 dashed 1px;
+	position:absolute;
+	font-family: 'Acme', sans-serif;
+	font-size:14px;
+	font-weight:bold;}/*제목 공통사항*/
+
+#co_p{
+	font-family: 'Bitter', serif;
+	font-weight:lighter;
+	line-height:-5px;
+	font-size:8px;} /*내용 공통사항*/
+	
+/*첫번째 co-work*/
+.five_1{
+	top:0;
+	left:35px;
+	margin-bottom:70px;}
+	
+.co_work p{
+	margin-left:50px;}	
+	
+.co_pic{
+	width:180px;
+	height:140px;
+	position:absolute;
+	top:45px;
+	left:15px;
+	background:url(../img/intro/five1.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.co_ment{
+	width:180px;
+	position:absolute;
+	left:10px;
+	bottom:0px;}
+	
+/*두번째 custom-made*//*아이패드*/
+.five_2{
+	left:90px;
+	top:0;}
+
+.custom_made p{
+	margin-left:5px;}	
+	
+.custom_pic{
+	width:202px;
+	height:148px;
+	position:absolute;
+	top:90px;
+	left:35px;
+	background:url(../img/intro/five2.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.custom_ment{
+	width:380px;
+	position:absolute;
+	left:-60px;
+	top:60px;}
+	
+/*세번째 beautiful*/
+
+.five_3{
+	left:170px;
+	top:0;
+	margin-bottom:20px;}
+
+.beautiful{
+	margin-left:20px;}
+.beautiful p{
+	margin-left:55px;}	
+	
+.beautiful_pic{
+	width:165px;
+	height:145px;
+	position:absolute;
+	top:120px;
+	left:10px;
+	background:url(../img/intro/five3.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.beafutiful_ment{
+	width:160px;
+	position:absolute;
+	right:0;
+	top:28px;}	
+	
+/*두번째줄 공통사항------------------------------------*/
+#five_box2{
+	width:320px;
+	height:280px;
+	float:left;
+	position:absolute;
+	}/*두번째라인 박스 공통사항 아이패드*/	
+	
+	
+/*네번째 considering*/
+
+.five_4{
+	left:30px;
+	bottom:0;}
+
+.considering{
+	margin-left:130px;}
+.considering p{
+	margin-left:110px;}	
+	
+.considering_pic{
+	width:266px;
+	height:193px;
+	position:absolute;
+	top:40px;
+	left:50px;
+	background:url(../img/intro/five4.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.considering_ment{
+	width:200px;
+	position:absolute;
+	left:150px;
+	top:240px;}	
+
+
+/*다섯번째 comfortable*/
+
+.five_5{
+	left:400px;
+	bottom:0;}
+
+.comfortable p{
+	margin-left:10px;}	
+	
+.comfortable_pic{
+	width:284px;
+	height:189px;
+	position:absolute;
+	top:40px;
+	left:0px;
+	background:url(../img/intro/five5.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.comfortable_ment{
+	width:200px;
+	position:absolute;
+	left:-32px;
+	top:240px;}	
+
+/*------------------------------------------------------------------------5개끝*/
+/*--------------------------------Mission----*/
+
+.mission{
+	width:100%;
+	height:450px;}/*article이름 아이패드*/
+
+.missionbox{
+	width:680px;
+	height:450px;
+	position:relative;
+	top:40px;
+	left:40px;}/*감싼박스 이름*/
+	
+.mission_sub{
+	width:130px;
+	height:65px;
+	border-bottom:#000 dashed 2px;}/*mission이랑 로고있는 거*/
+.mission_sub img{
+	margin-top:6px;
+	float:left;}
+.mission_sub h5{
+	font-family: 'Rokkitt', serif;
+	font-size:22px;
+	letter-spacing:2px;
+	margin-left:30px;
+	line-height:110px;}
+	
+.mission_pic{
+	width:310px;
+	height:236px;
+	margin:10px;
+	border:#000 solid 1px;
+	background:url(../img/intro/missionpic.png) center center no-repeat !important;
+	background-size:300px 226px !important;
+	position:absolute;
+	top:80px;
+	left:35px;
+	transition:all 0.6s;
+	-moz-transition:all 0.6s;
+	-ms-transition:all 0.6s;
+	-o-transition:all 0.6s;
+	-webkit-transition:all 0.6s;
+	cursor:pointer;}
+
+.mission_pic:hover{
+	background-size:90% 90% !important;
+	background-position:center center !important;}
+
+.mission_ment{
+	width:300px;
+	height:130px;
+	position:absolute;
+	top:190px;
+	right:-5px;}/* 오른쪽 글씨 박스*/
+.mission_ment h5{
+	font-family: 'Monda', sans-serif;
+	font-size:20px;
+	text-align:center;}
+.mission_ment p{
+	font-family: 'Bitter', serif;
+	font-size:12px;
+	font-weight:lighter;
+	text-align:center;
+	line-height:25px;
+	margin-top:30px;}
+	
+
+/*box 아이패드*/
+.tri_box{
+	width:50px;
+	height:50px;
+	position:fixed;
+	top:80%;
+	right:20px;
+	background:#Fff;
+	cursor:pointer;
+	display:none;}
+.tri_box>p{
+	display:none;
+	text-align:center;
+	line-height:75px;
+	letter-spacing:1px;
+	font-weight:bold;
+	font-family: 'Alegreya', serif;}
+.triangle-up {
+	display:none;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid black;
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+
+
+
+
+}
+ /*ipad end*/
+ /*↓pc start*/
+@media all and (min-width:1025px) {
+.intro_bigmain{
+	width:100%;
+	height:580px;
+	margin-bottom:120px;
+	position:relative;}/*article 아이패드*/
+	
+.left_main{
+	width:70%;
+	height:580px;
+	position:absolute;
+	left:0;
+	top:0;
+	background:url(../img/intro/intromain.jpg) center center no-repeat !important;
+	background-size:cover !important;} /* 맨 위 왼쪽 사진 */
+
+#txtlzr{
+			font-family: 'Rokkitt', serif;
+            font-size: 50px;
+			font-weight:bold;
+            width: 650px;
+            height: 80px;
+			line-height:70px;
+			text-align:center;
+            margin-left: 100px;
+            margin-top: 50px;;
+			letter-spacing:3px;
+        	z-index:10;
+			color:#000;
+			background:rgba(84,134,151,0.9);
+			position:absolute;
+			bottom:50px;
+			right:200px;}
+
+.intro_border{
+	width: 640px;
+
+    height: 90px;
+	line-height:70px;
+	border:#54a1bb solid 1px;
+	position:absolute;
+	bottom:45px;
+	right:180px;
+	z-index:7;
+	}
+
+/*----------------------------------------------------맨위 끝-----------*/
+
+/*-------------------------------------brand company 시작*/
+.intro_brand{
+	width:775px;
+	height:665px;
+	position:relative;
+	top:0;
+	left:50%;
+	margin-left:-387px;
+	margin-bottom:150px;}
+.brandcompany{
+	width:775px;
+	height:69px;
+	border-bottom:#000 dashed 2px;}
+.brandcompany img{
+	margin-top:5px;
+	float:left;
+	}
+.brandcompany h4{
+	font-family: 'Oswald', sans-serif;
+	font-size:22px;
+	letter-spacing:2px;
+	margin-left:10px;
+	line-height:110px;
+	text-align:left;
+	}
+
+mark{
+	font-weight:bold;
+	background-color:#fad5d7;}	
+.commonsense{
+	width:580px;
+	height:230px;
+	margin:auto;
+	margin-top:50px;
+	background:#fff;}
+.commonsense p,.commonsense h4{
+	text-align:center;
+	}
+.commonsense p{
+	font-family: 'Bitter', serif;
+	line-height:25px;
+	font-size:13px;}
+.commonsense h4{
+	font-family: 'Oswald', sans-serif;
+	font-size:25px;
+	font-weight:normal;
+	line-height:32px;
+	margin-bottom:20px;}
+
+.common_pic{
+	width:600px;
+	height:300px;
+	margin:50px auto;
+	background:url(../img/intro/commonpic.png) center center no-repeat !important;
+	background-size:cover !important;}
+	
+/*----------------------------------------------------brand company 끝-----------*/
+/*---------------------------------------5개 시작-----------*/
+.five{ 
+	width:100%;
+	height:575px;}/*article 이름*/
+
+.aim_five{
+	width:1250px;
+	height:560px;
+	margin:auto;}/*------------------5개 감싼애*/
+.aim_five>div{
+	opacity:0;}
+.aim_five>div>div{ 
+	background-size:100% 100% !important;
+	background-position:center center !important;
+	transition:all 0.6s;
+	-moz-transition:all 0.6s;
+	-ms-transition:all 0.6s;
+	-o-transition:all 0.6s;
+	-webkit-transition:all 0.6s;}
+
+.aim_five>div>div:hover{
+	background-size:110% 110% !important;
+	background-position:center center !important;
+	}
+	
+#five_box{
+	width:380px;
+	height:300px;
+	float:left;
+	position:relative;}/*박스 공통사항*/
+	
+#five_subject{
+	width:195px;
+	height:26px;
+	border-bottom:#000 dashed 1px;
+	position:absolute;
+	font-family: 'Acme', sans-serif;
+	font-size:18px;
+	font-weight:bold;}/*제목 공통사항*/
+
+#co_p{
+	font-family: 'Bitter', serif;
+	line-height:24px;
+	font-size:13px;} /*내용 공통사항*/
+	
+/*첫번째 co-work*/
+.five_1{
+	top:0;
+	left:10px;
+	}
+	
+.co_work p{
+	margin-left:50px;}	
+	
+.co_pic{
+	width:243px;
+	height:165px;
+	position:absolute;
+	top:50px;
+	left:45px;
+	background:url(../img/intro/five1.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.co_ment{
+	width:380px;
+	position:absolute;
+	left:10px;
+	bottom:20px;}
+	
+/*두번째 custom-made*/
+.five_2{
+	left:50px;
+	top:0;}
+
+.custom_made p{
+	margin-left:20px;}	
+	
+.custom_pic{
+	width:242px;
+	height:188px;
+	position:absolute;
+	top:90px;
+	left:75px;
+	background:url(../img/intro/five2.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.custom_ment{
+	width:380px;
+	position:absolute;
+	left:30px;
+	top:50px;}
+	
+/*세번째 beautiful*/
+
+.five_3{
+	left:90px;
+	top:0;}
+
+.beautiful{
+	margin-left:80px;}
+.beautiful p{
+	margin-left:55px;}	
+	
+.beautiful_pic{
+	width:197px;
+	height:197px;
+	position:absolute;
+	top:60px;
+	left:10px;
+	background:url(../img/intro/five3.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.beafutiful_ment{
+	width:160px;
+	position:absolute;
+	right:0;
+	top:90px;}	
+	
+/*두번째줄 공통사항------------------------------------*/
+#five_box2{
+	width:500px;
+	height:235px;
+	float:left;
+	position:relative;}/*두번째라인 박스 공통사항*/	
+	
+	
+/*네번째 considering*/
+
+.five_4{
+	left:100px;
+	top:20px;}
+
+.considering{
+	margin-left:300px;}
+.considering p{
+	margin-left:110px;}	
+	
+.considering_pic{
+	width:296px;
+	height:193px;
+	position:absolute;
+	top:40px;
+	left:200px;
+	background:url(../img/intro/five4.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.considering_ment{
+	width:200px;
+	position:absolute;
+	left:20px;
+	top:180px;}	
+
+
+/*다섯번째 comfortable*/
+
+.five_5{
+	left:210px;
+	top:20px;}
+
+.comfortable p{
+	margin-left:10px;}	
+	
+.comfortable_pic{
+	width:284px;
+	height:189px;
+	position:absolute;
+	top:40px;
+	left:0px;
+	background:url(../img/intro/five5.png) center center no-repeat !important;
+	background-size:contain !important;
+	cursor:pointer;}
+
+.comfortable_ment{
+	width:200px;
+	position:absolute;
+	right:0px;
+	top:180px;}	
+
+/*------------------------------------------------------------------------5개끝*/
+/*--------------------------------Mission----*/
+
+.mission{
+	width:100%;
+	height:590px;}/*article이름*/
+
+.missionbox{
+	width:918px;
+	height:450px;
+	position:relative;
+	top:90px;
+	left:400px;}/*감싼박스 이름*/
+	
+.mission_sub{
+	width:130px;
+	height:65px;
+	border-bottom:#000 dashed 2px;}/*mission이랑 로고있는 거*/
+.mission_sub img{
+	margin-top:6px;
+	float:left;}
+.mission_sub h5{
+	font-family: 'Rokkitt', serif;
+	font-size:18px;
+	letter-spacing:2px;
+	margin-left:30px;
+	line-height:100px;
+	}
+	
+.mission_pic{
+	width:441px;
+	height:336px;
+	margin:10px;
+	border:#000 solid 1px;
+	background:url(../img/intro/missionpic.png) center center no-repeat !important;
+	background-size:411px 306px !important;
+	position:absolute;
+	top:80px;
+	left:50px;
+	transition:all 0.6s;
+	-moz-transition:all 0.6s;
+	-ms-transition:all 0.6s;
+	-o-transition:all 0.6s;
+	-webkit-transition:all 0.6s;
+	cursor:pointer;}
+
+.mission_pic:hover{
+	background-size:90% 90% !important;
+	background-position:center center !important;}
+
+.mission_ment{
+	width:380px;
+	height:130px;
+	position:absolute;
+	top:190px;
+	right:10px;
+	}/* 오른쪽 글씨 박스*/
+.mission_ment h5{
+	font-family: 'Monda', sans-serif;
+	font-size:25px;
+	text-align:center;}
+.mission_ment p{
+	font-family: 'Bitter', serif;
+	font-size:17px;
+	font-weight:lighter;
+	text-align:center;
+	line-height:25px;
+	margin-top:30px;}
+	
+
+/*box*/
+.tri_box{
+	width:50px;
+	height:50px;
+	position:fixed;
+	top:80%;
+	right:20px;
+	background:#Fff;
+	cursor:pointer;
+	border:#000 solid 1px;
+	display:none;}
+.tri_box>p{
+	text-align:center;
+	line-height:75px;
+	letter-spacing:1px;
+	font-weight:bold;
+	font-family: 'Alegreya', serif;}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid black;
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+
+
+
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Arvo|Oswald|Rokkitt');
+/*font-family: 'Rokkitt', serif; 큰 제목 사용*/
+
+@import url('https://fonts.googleapis.com/css?family=Arvo|Oswald');
+/*font-family: 'Oswald', sans-serif; Let's live 폰트*/
+
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bitter|Oswald|Rokkitt');
+/*font-family: 'Bitter', serif; Let's live 하단 폰트*/
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Arvo|Bitter|Oswald|Rokkitt');
+/*font-family: 'Acme', sans-serif; 5개 제목 폰트*/
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Arvo|Bitter|Monda|Oswald|Rokkitt');
+/*font-family: 'Monda', sans-serif; mission 오른쪽 내용폰트*/
+
+

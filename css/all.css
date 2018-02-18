@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya+Sans+SC|Arvo');
+/*font-family: 'Alegreya Sans SC', sans-serif;*/
+	
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+/*font-family: 'Nanum Myeongjo', serif;*/
+
+body,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd,dt,p,div,header,section,footer,img,article,form,fieldset,select,a{ margin:0; padding:0;}
+img{ vertical-align:middle; border:none;}
+a{ text-decoration:none;}
+li{ list-style:none;}
+input,textarea,select{ vertical-align:middle;}
+body{ font-family: 'Nanum Gothic', serif;}
+

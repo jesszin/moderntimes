@@ -1,0 +1,578 @@
+@media all and (min-width:320px) and (max-width:767px){
+	*{overflow-x:hidden;
+	}
+.contact_main{
+	width:100%;
+	height:260px;
+	position:relative;
+	background:#fff;}/*article 이름*/
+
+.whole_con{
+	width:100%;
+	height:260px;
+	background:#f9efc3;
+	background-size:contain;}
+
+.border_con1,.border_con2{
+	height:55px;
+	border:#000 solid 2px;
+	position:absolute;
+	z-index:2;}
+.border_con1{
+	width:180px;
+	left:1%;
+	bottom:120px;}
+
+.border_con2{
+	width:285px;
+	left:3%;
+	bottom:46px;}
+
+.free1 img{
+	width:97px;
+	height:50px;}
+
+.free2 img,.free3 img{
+	width:180px;
+	height:50px;}
+
+
+	
+/*---------------------------------------------------MAIN END*/
+
+/*---------------------------------------------------------------남자사진/연락처시작*/
+
+.contact_us{
+	width:100%;
+	height:1400px;
+	position:relative;
+	background:#Fff;}/*article 이름 모바일*/
+
+.con_number{
+	width:100%;
+	height:640px;
+	background:#Fff;
+	}/*사진 연락처 감싼div*/
+
+.con_number>div{ 
+	position:absolute;
+	z-index:2;
+	}/*각 지사 박스/풍선남자 공통*/
+
+.con_number>div h3{
+	margin:10px 0;
+	font-family: 'Cabin', sans-serif;
+	font-size:18px;
+	letter-spacing:2px;
+	text-indent:10px;
+	}
+.con_number>div>ul>li{
+	font-family: 'Bitter', serif; 
+	font-size:11px;}
+
+
+
+.con_num_pic{
+	display:none;}/*풍선남자*/
+
+
+.con_seoul{
+	width:280px;
+	height:140px;
+	left:5%;
+	top:1%;}
+
+.con_tokyo{
+	width:280px;
+	height:140px;
+	top:12%;
+	left:5%;}
+.con_osaka{
+	width:280px;
+	height:140px;
+	top:23%;
+	left:5%;}
+.con_newyork{
+	width:290px;
+	height:140px;
+	top:34%;
+	left:5%;}
+
+.conbox{
+	display:inline-block;
+	width:280px;
+	height:100px;
+	border:#ccc solid 1px;
+	background:#FFF;}
+
+.conbox a{
+	color:#000;}
+.conbox a:hover{
+	color:#999;
+	text-decoration:underline;}
+.conbox p{
+	padding-top:10px;
+	padding-left:20px;
+	line-height:27px;}
+
+
+/*--------------------------------------------------------제출폼*/
+mark{
+	color:#F00;
+	font-weight:bold;
+	background-color:#FFF;}
+.con_form{
+	width:100%;
+	height:680px;
+	position:absolute;
+	left:0;
+	top:730px;
+	background:#fff;}/* 필드셋 배경 전체 안고있는 div*/
+
+.con_wrap{	
+	width:300px;
+	height:582px;
+	background:#fff;
+	position:absolute;
+	left:10px;
+	top:70px;
+	border:#CCC solid 1px;
+	}/*폼있는 div*/
+
+fieldset{
+	border:none;
+	padding:20px 5px;
+	}
+
+
+#h70{
+	margin-top:20px;
+	}
+
+input[type="submit"]{
+	width:100px;
+	height:40px;
+	background:#1a1a1a;
+	border:#1a1a1a solid 1px;
+	color:#FFF;
+	margin-left:100px;
+	letter-spacing:2px;
+	}
+input[type="text"]{
+	width:270px;
+	height:20px;
+	margin-top:10px;
+	border:#000 solid 1px;
+	}
+
+textarea{
+	margin-top:10px;
+	border:#1a1a1a solid 1px;
+	width:270px;}
+
+/*--------------------------------------------------------오른쪽 폼끝*/
+
+.con_con{
+	width:200px;
+	height:24px;
+	position:absolute;
+	top:8px;
+	left:15px;
+	float:left}
+.con_con p,.con_con img{ float:left;}
+.con_con p{
+	font-family: 'Bitter', serif;
+	font-size:12px;
+	margin-left:5px;
+	margin-top:40px;}
+ }
+/*mobile end*/
+/*↓ipad start*/
+@media all and (min-width:768px) and (max-width:1024px) {
+.contact_main{
+	width:100%;
+	height:460px;
+	position:relative;
+	background:#fff;
+	margin-bottom:70px;}/*article 이름 아이패드*/
+
+.whole_con{
+	width:80%;
+	height:460px;
+	background:url(../img/contact/mainbg.jpg) center center;
+	background-size:cover;
+	position:absolute;
+	top:0;
+	left:150px;}
+
+
+.border_con1,.border_con2{
+	height:85px;
+	border:#000 solid 2px;
+	position:absolute;
+	z-index:2;}
+.border_con1{
+	width:300px;
+	left:80px;
+	bottom:113px;}
+
+.border_con2{
+	width:500px;
+	left:125px;
+	bottom:13px;}
+	
+/*---------------------------------------------------MAIN END*/
+
+/*---------------------------------------------------------------남자사진/연락처시작*/
+
+.contact_us{
+	width:100%;
+	height:1450px;
+	position:relative;
+	background:#Fff;}/*article 이름 아이패드*/
+
+.con_number{
+	width:750px;
+	height:720px;
+	background:#Fff;
+	}/*사진 연락처 감싼div*/
+
+.con_number>div{ 
+	position:absolute;
+	z-index:2;
+	}/*각 지사 박스/풍선남자 공통*/
+
+.con_number>div h3{
+	margin:15px 0;
+	font-family: 'Cabin', sans-serif;
+	font-size:23px;
+	letter-spacing:2px;
+	text-indent:20px;
+	}
+.con_number>div>ul>li{
+	font-family: 'Bitter', serif; 
+	font-size:14px;}
+span{ color:#fff;}
+
+
+.con_num_pic{
+	width:580px;
+	height:720px;
+	background:url(../img/contact/conpic.jpg) center center no-repeat;
+	background-size:contain;
+	top:0;
+	left:40px;
+	z-index:1;}/*풍선남자*/
+
+
+.con_seoul{
+	width:340px;
+	height:140px;
+	left:390px;
+	top:30px;}
+
+.con_tokyo{
+	width:340px;
+	height:140px;
+	top:210px;
+	left:390px;}
+.con_osaka{
+	width:340px;
+	height:140px;
+	top:380px;
+	left:390px;}
+.con_newyork{
+	width:360px;
+	height:140px;
+	top:545px;
+	left:390px;}
+
+.conbox{
+	display:inline-block;
+	width:340px;
+	height:100px;
+	border:#ccc solid 1px;
+	background:#FFF;}
+
+.conbox a{
+	color:#000;}
+.conbox a:hover{
+	color:#999;
+	text-decoration:underline;}
+.conbox p{
+	padding-top:10px;
+	padding-left:20px;
+	line-height:27px;}
+
+
+/*--------------------------------------------------------제출폼*/
+mark{
+	color:#F00;
+	font-weight:bold;
+	background-color:#FFF;}
+.con_form{
+	width:750px;
+	height:720px;
+	position:absolute;
+	left:0px;
+	top:725px;
+	background:#fff;}/* 필드셋 배경 전체 안고있는 div*/
+
+.con_wrap{	
+	width:452px;
+	height:582px;
+	background:#fff;
+	position:absolute;
+	left:150px;
+	top:100px;
+	border:#CCC solid 1px;
+	}/*폼있는 div*/
+
+fieldset{
+	border:none;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:40px;
+	}
+
+
+#h70{
+	margin-top:20px;
+	}
+
+input[type="submit"]{
+	width:100px;
+	height:40px;
+	background:#1a1a1a;
+	border:#1a1a1a solid 1px;
+	color:#FFF;
+	margin-left:150px;
+	letter-spacing:2px;
+	}
+input[type="text"]{
+	width:363px;
+	height:20px;
+	border:#000 solid 1px;
+	}
+
+textarea{
+	border:#1a1a1a solid 1px;
+	width:360px;}
+
+/*--------------------------------------------------------오른쪽 폼끝*/
+
+.con_con{
+	width:200px;
+	height:24px;
+	position:absolute;
+	top:38px;
+	right:400px;
+	float:left}
+.con_con p,.con_con img{ float:left;}
+.con_con p{
+	font-family: 'Bitter', serif;
+	font-size:12px;
+	margin-left:5px;
+	margin-top:40px;}
+}
+/*ipad end*/
+/*↓pc start*/
+@media all and (min-width:1025px) {
+.contact_main{
+	width:100%;
+	height:460px;
+	position:relative;
+	background:#fff;
+	margin-bottom:150px;}/*article 이름*/
+
+.whole_con{
+	width:80%;
+	height:460px;
+	background:url(../img/contact/mainbg.jpg) center center;
+	background-size:cover;
+	position:absolute;
+	top:0;
+	right:0;}
+
+
+.border_con1,.border_con2{
+	height:85px;
+	border:#000 solid 2px;
+	position:absolute;
+	z-index:2;}
+.border_con1{
+	width:300px;
+	left:80px;
+	bottom:113px;}
+
+.border_con2{
+	width:500px;
+	left:125px;
+	bottom:13px;}
+	
+/*---------------------------------------------------MAIN END*/
+
+/*---------------------------------------------------------------남자사진/연락처시작*/
+
+.contact_us{
+	width:100%;
+	height:820px;
+	position:relative;
+	background:#FFF;}/*article 이름*/
+
+.con_number{
+	width:750px;
+	height:720px;
+	margin-left:100px;
+	background:#FFF;
+	}/*사진 연락처 감싼div*/
+
+.con_number>div{ 
+	position:absolute;
+	z-index:2;
+	}/*각 지사 박스/풍선남자 공통*/
+
+.con_number>div h3{
+	margin:15px 0;
+	font-family: 'Cabin', sans-serif;
+	font-size:23px;
+	letter-spacing:2px;
+	text-indent:20px;
+	}
+.con_number>div>ul>li{
+	font-family: 'Bitter', serif; 
+	font-size:14px;}
+span{ color:#fff;}
+
+
+.con_num_pic{
+	width:580px;
+	height:720px;
+	background:url(../img/contact/conpic.jpg) center center no-repeat;
+	background-size:contain;
+	top:0;
+	left:100px;
+	z-index:1;}/*풍선남자*/
+
+
+.con_seoul{
+	width:340px;
+	height:140px;
+	left:485px;
+	top:30px;;}
+
+.con_tokyo{
+	width:340px;
+	height:140px;
+	top:210px;
+	left:485px;}
+.con_osaka{
+	width:340px;
+	height:140px;
+	top:380px;
+	left:485px;}
+.con_newyork{
+	width:358px;
+	height:140px;
+	top:545px;
+	left:485px;}
+
+.conbox{
+	display:inline-block;
+	width:340px;
+	height:100px;
+	border:#ccc solid 1px;
+	background:#FFF;}
+
+.conbox a{
+	color:#000;}
+.conbox a:hover{
+	color:#999;
+	text-decoration:underline;}
+.conbox p{
+	padding-top:10px;
+	padding-left:20px;
+	line-height:27px;}
+
+
+/*--------------------------------------------------------제출폼*/
+mark{
+	color:#F00;
+	font-weight:bold;
+	background-color:#FFF;}
+.con_form{
+	width:750px;
+	height:720px;
+	position:absolute;
+	left:880px;
+	top:0;
+	background:#fff;}/* 필드셋 배경 전체 안고있는 div*/
+
+.con_wrap{	
+	width:452px;
+	height:582px;
+	background:#fff;
+	position:absolute;
+	right:145px;
+	top:70px;
+	border:#CCC solid 1px;
+	}/*폼있는 div*/
+
+fieldset{
+	border:none;
+	padding:20px 40px;
+	}
+
+
+#h70{
+	margin-top:20px;
+	}
+
+input[type="submit"]{
+	width:100px;
+	height:40px;
+	background:#1a1a1a;
+	border:#1a1a1a solid 1px;
+	color:#FFF;
+	margin-left:150px;
+	letter-spacing:2px;
+	}
+input[type="text"]{
+	width:343px;
+	height:20px;
+	margin-top:10px;
+	border:#000 solid 1px;
+	}
+
+textarea{
+	margin-top:10px;
+	border:#1a1a1a solid 1px;
+	width:360px;}
+
+/*--------------------------------------------------------오른쪽 폼끝*/
+
+.con_con{
+	width:200px;f
+	height:24px;
+	position:absolute;
+	top:8px;
+	right:400px;
+	float:left}
+.con_con p,.con_con img{ float:left;}
+.con_con p{
+	font-family: 'Bitter', serif;
+	font-size:12px;
+	margin-left:5px;
+	margin-top:40px;}
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Cabin|Crimson+Text|Noticia+Text');
+/*font-family: 'Cabin', sans-serif; 각지사 제목 사용 폰트*/
+
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bitter|Oswald|Rokkitt');
+/*font-family: 'Bitter', serif; 지사 정보 폰트*/
+

@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+
+<title>MODERN TIMES</title>
+<!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+<![endif]-->
+<link rel="apple-touch-icon" sizes="57x57" href="faviico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="faviico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="faviico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="faviico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="faviico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="faviico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="faviico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="faviico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="faviico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="faviico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="faviico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="faviico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="faviico/favicon-16x16.png">
+<link rel="manifest" href="faviico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="faviico/ms-icon-144x144.png">con_seoul
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<link rel="stylesheet" type="text/css" href="css/submenu.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<link rel="stylesheet" type="text/css" href="css/subfooter.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/contactus.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/move-bg.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			moveBgAround();
+		
+		});
+		
+		function moveBgAround() {
+			var x = Math.floor(Math.random()*401);
+			var y = Math.floor(Math.random()*401);
+			
+			var time = Math.floor(Math.random()*1001) + 2000;
+		
+			$('.scrollBg').animate({
+				backgroundPosition: '(' + (x * -1) + 'px ' + (y * -1) + 'px)'
+			}, time, "swing", function() {
+				moveBgAround();
+			});
+		}
+		
+	</script>
+
+</head>
+
+<body>
+<!----------------------------menu----------------------->
+    
+    
+    
+    <article class="menu_bottom">
+   
+        <div class="menu_top">	
+            <h1><a href="index.html"><img src="img/blackwhitelogo.png" width="133px" height="63px" alt="logo"></a></h1>
+                
+            <h3 class="close"><img src="img/letter-x white.png" width="32px" height="32px" alt="menu"></h3>
+          </div>
+    
+    	<div class="menu">
+        	<ul>
+            	<li><a href="index.html">MAIN</a></li>
+            	<li><a href="instroduction.html">INTRODUCTION</a></li>
+                <li><a href="lookbook.html">LOOKBOOK</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="six_colors.html">MODERN COLORS</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        
+        
+        <div class="menusns">
+            <ul>
+                <li><a href="#"><img src="img/white_facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="img/white_instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="img/white_twitter.png" alt="twitter"></a></li>
+            </ul>
+        </div><!--sns div끝-->
+ 
+    </article>
+    
+<!-----------------------------------------------menu끝--------------->
+<!--------------------------header시작------------------------------------->
+<header>
+
+	<div>	
+        <h1><a href="index.html"><img src="img/mtlogo.png" alt="logo"></a></h1>
+            
+        <h3 class="tap"><img src="img/menu.png" alt="menu"></h3>
+        <div class="sns">
+            <ul>
+                <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="img/insta.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+            </ul>
+        </div><!--sns div끝-->
+    </div>
+    
+</header>
+<!------------------------------------header 끝---------------------------------->
+
+<section>
+
+	<article class="contact_main">
+    
+    	<div class="border_con1"></div><!--뒤 라인1-->
+        <div class="border_con2"></div><!--뒤 라인2-->
+    	<div class="whole_con"></div><!-------------main image-->
+        
+        
+        <div class="content"><!--움직이는 글자 오픈소스-->
+        
+		<div class="scrollBg free3" style='background-image:url(img/contact/slidebg.jpg)'>
+			<img src="img/contact/welcome.png" alt="welcome" />
+		</div>
+		<div class="scrollBg free1" style='background-image: url(img/contact/slidebg.jpg)'>
+			<img src="img/contact/your.png" alt="your" />
+
+		</div>
+		<div class="scrollBg free2" style='background-image: url(img/contact/slidebg.jpg))'>
+			<img src="img/contact/contact.png" alt="contact" />
+		
+		</div><!----------------------글자 움직이는거------------->
+        
+    </article><!----------------------------------------------------main end---->
+    
+    <article class="contact_us">
+    
+    	<div class="con_number">
+        	<div class="con_num_pic"></div>
+            
+            <div class="con_seoul">
+            	<ul>
+                	<li><h3><span>Modern Times</span> &nbsp;(Seoul)</h3></li>
+                    <li class="conbox">
+                    	<p>T : 02-558-1234 <br>
+                        Mail to : <a href="Mail to : seoulmt@m-times.co.kr">seoulmt@m-times.co.kr</a><br>
+                       
+                        648, Samseong-ro, Gangnam-gu, Seoul</p>
+                    </li>
+                </ul>
+            </div><!--conseoulEnd-->
+            
+            <div class="con_tokyo">
+            	<ul>
+                	<li><h3><span>Modern Times</span> &nbsp;(Tokyo)</h3></li>
+                    <li class="conbox">
+                    	<p>T : 0120-184-012<br>
+                        Mail to : <a href="Mail to : tokyomt@m-times.co.jp">tokyomt@m-times.co.jp</a><br>
+                        
+                        530-0041 大阪府大阪市北区天神橋4-8-27</p>
+                    </li>
+                </ul>
+            </div><!--contokyoEnd-->
+            
+            <div class="con_osaka">
+            	<ul>
+                	<li><h3><span>Modern Times</span> &nbsp;(Osaka)</h3></li>
+                    <li class="conbox">
+                    	<p>T : 0514-297-534<br>
+                        Mail to : <a href="Mail to : osakamt@m-times.co.jp">osakamt@m-times.co.jp</a><br>
+                     
+                        870-0249 石川県野々市市高橋町20-17</p>
+                    </li>
+                </ul>
+            </div><!--conOsakaEnd-->
+            
+            <div class="con_newyork">
+            	<ul>
+                	<li><h3><span>Modern Times</span> &nbsp;(Newyork)</h3></li>
+                    <li class="conbox">
+                    	<p>T : 202456-1111 <br>
+                         Mail to : <a href="Mail to : newyorkmt@m-times.com">newyorkmt@m-times.com</a><br>
+                        1600 Pennsylvania Ave NW, Washington</p>
+                    </li>
+                </ul>
+            </div><!--conOsakaEnd-->
+            
+            
+        </div><!--왼쪽연락처 끝------------------------------------------------->
+        
+        <div class="con_form">
+        	
+        <div class="con_wrap">    
+       <form action="" method="post">
+
+       		<fieldset>
+            	<label for="name"><mark>*</mark> Name</label><br>
+                <input type="text" id="name"  autocomplete="on"  required>
+            </fieldset>
+
+
+            <fieldset>
+            	<label for="name"><mark>*</mark> Email</label><br>
+                <input type="text" id="email"  required> 
+            </fieldset>
+            
+            
+            <fieldset>
+            	<label for="name"><mark>*</mark> Phone number</label><br>
+                <input type="text" id="phonenumber" required> 
+            </fieldset>
+            
+            
+             <fieldset id="h70" class="h71">
+             	<label for="ment"><mark>*</mark> Message</label>
+                <textarea  rows="9" required></textarea>
+
+               <!-- cols=""글자수 rows="9"줄수
+
+               지정글자수를 넘으면 자동줄바꿈이 되고
+
+               지정한 줄수를 넘으면 스크롤바가 생김-->
+             </fieldset>
+             
+             
+             <fieldset>
+              	<input type="submit" value="SUBMIT">
+              </fieldset>
+            
+            </form>
+            </div><!-- conwrapEnd-->
+            
+            <div class="con_con">
+            <img src="img/email.png" alt="plzmailtome"><p>Waits for your contact</p>
+            </div>
+            
+        </div><!----con_form end----------------오른쪽 폼끝------->
+    	
+    
+    </article>
+    
+    
+
+
+</section>
+
+
+
+
+
+
+<!--------------------------------------sub footer 시작------------------------------->
+<footer>
+	<h3><img src="img/whitelogo.png" alt="footerlogo"></h3>
+    
+    <p>&copy;2017 Modern Times Inc. All Rights Reserved.</p>
+</footer>
+
+<!--------------------------------------footer 끝------------------------------->
+
+
+</body>
+</html>

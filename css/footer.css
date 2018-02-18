@@ -1,0 +1,233 @@
+/*mobiel start↓*/
+@media all and (min-width:320px) and (max-width:767px){
+     footer{	
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight:lighter;
+	width:100%;
+	font-size:11px;
+	background-color:#404040;}
+footer:after{
+	content:"";
+	display:block;
+	clear:both;}
+	
+footer>h3{
+	float:left;
+	margin-top:10px;
+	margin-left:100px;}
+	
+footer>div{
+	float:left;
+	margin-left:2px;
+	margin-top:30px;
+	}
+
+footer>div:last-child{
+	margin-bottom:25px;}
+
+footer>div>ul>li{ 
+	line-height:15px;
+	color:#FFF;
+	font-size:9px;
+	text-align:right;}
+footer>div>ul>li a{
+	color:#FFF;
+	font-size:9px;}		
+
+.footad{ display:none;}
+
+
+		
+.seoul>div,.tokyo>div,.osaka>div{
+	width:115px;
+	height:28px;
+	line-height:28px;
+	background:#fff;
+	color:#404040;
+	text-align:center;
+	font-size:11px;
+	font-weight:bold;
+	margin:0 0 10px 30px;
+	cursor:pointer;}
+.newyork>div{
+	width:128px;
+	height:28px;
+	line-height:28px;
+	background:#fff;
+	color:#404040;
+	text-align:center;
+	font-size:11px;
+	font-weight:bold;
+	margin:0 0 10px 20px;
+	cursor:pointer;}
+footer>p{
+	clear:both;
+	text-align:center;
+	color:#FFF;
+	font-size:11px;
+	padding-top:30px;
+	padding-bottom:30px;}		
+ }
+ /*mobile end*/
+ /*↓ ipad start-----------------------------------------------------------------*/
+@media all and (min-width:768px) and (max-width:1024px) {
+footer{	
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight:lighter;
+	width:100%;
+	height:590px;
+	font-size:12px;
+	background-color:#404040;
+	position:relative;}
+
+	
+footer>h3{
+	display:inline-block;
+	clear:both;
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:350px;}
+	
+footer>div{
+	position:absolute;
+	float:left;
+	margin-right:20px;
+	margin-top:50px;
+	margin-bottom:40px;}
+	
+footer>div:after{
+	content:"";
+	display:block;
+	clear:both;}
+footer>div:last-child{d
+	margin-right:0px;}
+
+footer>div>ul>li{ 
+	margin-left:30px;
+	line-height:20px;
+	color:#FFF;}
+footer>div>ul>li a{
+	color:#FFF;}		
+		
+.seoul{
+	top:100px;
+	left:130px;}	
+
+.tokyo{
+	top:240px;
+	left:130px;}
+.osaka{
+	top:240px;
+	right:100px;}	
+
+.newyork{
+	top:100px;
+	right:70px;}
+		
+.seoul>div,.tokyo>div,.osaka>div{
+	width:110px;
+	height:28px;
+	line-height:28px;
+	background:#fff;
+	color:#404040;
+	text-align:center;
+	font-size:11px;
+	font-weight:bold;
+	margin:0 0 30px 30px;
+	cursor:pointer;}
+.newyork>div{
+	width:130px;
+	height:28px;
+	line-height:28px;
+	background:#fff;
+	color:#404040;
+	text-align:center;
+	font-size:11px;
+	font-weight:bold;
+	margin:0 0 30px 30px;
+	cursor:pointer;}
+	
+	
+footer>p{
+	clear:both;
+	text-align:center;
+	color:#FFF;
+	font-size:15px;
+	padding-bottom:30px;}		
+}
+ /*ipad end*/
+ /*↓ pc start------------------------------------------------------------------------*/
+@media all and (min-width:1025px) {
+     footer{	
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight:lighter;
+	width:100%;
+	font-size:12px;
+	background-color:#404040;}
+footer:after{
+	content:"";
+	display:block;
+	clear:both;}
+	
+footer>h3{
+	float:left;
+	margin:80px 70px 0 100px;}
+	
+footer>div{
+	width:290px;
+	float:left;
+	margin-right:50px;
+	margin-top:50px;
+	margin-bottom:40px;}
+footer>div:after{
+	content:"";
+	display:block;
+	clear:both;}
+footer>div:last-child{d
+	margin-right:0px;}
+
+footer>div>ul>li{ 
+	margin-left:30px;
+	line-height:20px;
+	color:#FFF;}
+footer>div>ul>li a{
+	color:#FFF;}		
+		
+.seoul>div,.tokyo>div,.osaka>div{
+	width:148px;
+	height:38px;
+	line-height:38px;
+	background:#fff;
+	color:#404040;
+	text-align:center;
+	font-size:13px;
+	font-weight:bold;
+	margin:0 0 30px 30px;
+	cursor:pointer;}
+.newyork>div{
+	width:165px;
+	height:38px;
+	line-height:38px;
+	background:#fff;
+	color:#404040;
+	text-align:center;
+	font-size:13px;
+	font-weight:bold;
+	margin:0 0 30px 30px;
+	cursor:pointer;}
+footer>p{
+	clear:both;
+	text-align:center;
+	color:#FFF;
+	font-size:15px;
+	padding-bottom:30px;}		
+}
+
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*font-family: 'Noto Sans KR', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Arvo|Libre+Baskerville');
+/*font-family: 'Arvo', serif;*/
+

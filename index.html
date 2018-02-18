@@ -1,85 +1,347 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="author" content="JINAREUM(jessica)">
-    <meta name="title" content="Jinareum's Portfolio">
-    <meta name="description" content="Jinareum's Portfolio">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
 
-    <title>Jin Areum's Portfolio</title>
+<title>MODERN TIMES</title>
+<!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+<![endif]-->
+<link rel="apple-touch-icon" sizes="57x57" href="faviico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="faviico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="faviico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="faviico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="faviico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="faviico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="faviico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="faviico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="faviico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="faviico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="faviico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="faviico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="faviico/favicon-16x16.png">
+<link rel="manifest" href="faviico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="faviico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/slideheader.css">
-    <link rel="stylesheet" href="css/ptfl-moderntimes.css">
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="js/index.js"></script>
+<!--fonts-->
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/mainslide.js"></script>
+<script src="js/index.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.zaccordion.js"></script>
+<script type="text/javascript">
+				$(document).ready(function() {
+					$("#example1").zAccordion({
+						timeout: 900,
+						slideWidth: 600,
+						width: 750,
+						height: 200
+					});
+				});
+</script>
 
 </head>
+
 <body>
+
 <header>
-    <div class="container-fluid navWrap" style="background:#242830;">
-        <div class="row conatiner">
-            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 main-nav" style="">
-                <ul>
-                    <li><a href="index.html">Home<span></span></a></li>
-                    <li><a href="#">About<span></span></a></li>
-                    <li><a href="#">Portfolio<span></span></a></li>
-                    <li><a href="#">Get in touch<span></span></a></li>
-                </ul>
-            </div>
-        </div>
+
+	<div>	
+        <h1><a href="index.html"><img src="img/mtlogo.png" alt="logo"></a></h1>
+            
+        <h3 class="tap"><img src="img/menu.png" alt="menu"></h3>
+        <div class="sns">
+            <ul>
+                <li class="fa"><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+                <li class="ins"><a href="#"><img src="img/insta.png" alt="instagram"></a></li>
+                <li class="twi"><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+            </ul>
+        </div><!--sns div끝-->
     </div>
-</header>
-<section class="modernWrap navCommon">
-    <div class="container nav-common-bg">
-        <div class="row">
-            <div class="col-md-12 nav-icon-bg">
-                <div id="navicon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+    
+</header><!------------------------------------header 끝---------------------------------->
+
+    <article class="menu_bottom">
+   
+        <div class="menu_top">	
+            <h1><a href="#"><img src="img/blackwhitelogo.png" width="133px" height="63px" alt="logo"></a></h1>
+                
+            <h3 class="close"><img src="img/letter-x white.png" width="32px" height="32px" alt="menu"></h3>
+          </div>
+    
+    	<div class="menu">
+        	<ul>
+            	<li><a href="index.html">MAIN</a></li>
+            	<li><a href="instroduction.html">INTRODUCTION</a></li>
+                <li><a href="lookbook.html">LOOKBOOK</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="six_colors.html">MODERN COLORS</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
         </div>
-    </div>
-</section>
-<section class="portPic">
-    <div class="container">
-        <div class="row pic-wrap">
-            <div class="col-md-12">
-                <h1>Modern times</h1>
-                <div class="row pic-content">
-                    <div class="col-md-6">
-                        사진넣기
+        
+        
+        <div class="menusns">
+            <ul>
+                <li><a href="#"><img src="img/white_facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="img/white_instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="img/white_twitter.png" alt="twitter"></a></li>
+            </ul>
+        </div><!--sns div끝-->
+ 
+    </article><!-----------------------------------------------menu끝--------------->
+    
+<!------------------------------------section 시작---------------------------------->
+<section>
+	<article class="bigmain">
+    
+        <div class="common-label">
+            <p class="leftline">
+                MODERN TIMES CREATIVE DESIGN
+            </p><!--leftline div End-->
+        </div>
+           
+            
+        
+        <div class="mainpic">
+            <ul>
+                <li><span class="black-underline">INTERIOR FOR MOOD</span></li>
+                <li><span class="black-underline">NEST IN MODERNTIMES</span></li>
+            </ul>
+            
+        	<div class="mainpic1"></div>
+            <div class="mainpic2"></div>
+            <div class="mainpic3"></div>
+            
+        </div><!--mainpicEnd-->
+        
+
+    </article><!------------BIGMAIN ARTICLE END---------------->
+    
+     <article class="fic">
+    
+    	<div class="common-label02">
+        	<p class="leftline02">TINE NEW PRODUCTS</p>
+        </div><!--leftline div End-->
+        
+        
+       <p class="subject"><span>FURNITURE IN COLOR</span></p>
+       
+       
+        <div class="product-list"><!--6개 감싸는 div-->
+            <ul>   
+        	    <li>
+                   <span class="product-bg-hover red-bg-hover"></span>
+                   <div class="product red-product">
+                       <img src="img/index/fur1.png">
                     </div>
-                    <div class="col-md-6">
-                        <p>
-                            <span class="tool">Design &amp; Coding &amp; Responsive web</span><br>
-                            <span class="tool">Tool</span> : brackets , Git , Photoshop , Illustrator<br>
-                        </p>
-
-                        <h4>기획의도 및 컨셉</h4>
-                        <p>현대인의 공간에 휴식을 넘어 개인이 원하는 분위기를 반영한 공간을 만들기 위해 가구 소품 및 인테리어를 위한 회사입니다.<br>깔끔하면서 도시적인 느낌을 반영하여 세련된 느낌을 주도록 하였습니다.</p>
-
-                        <div class="btn-wrap">
-                            <button id="go-homepage">
-                                <a href="http://moderntimes.dothome.co.kr" target="_blank" >HOMEPAGE!</a>
-                            </button>&nbsp;
-
-                            <button id="go-homepage">
-                                <a href="https://drive.google.com/file/d/0B1Tox1e32K5GQU5CMzBIY3FjWHc/view" target="_blank" >Detailed plan</a>
-                            </button>
-                        </div>
+                   <div class="product-name-hover red-name-hover">
+                       <p>Minimalist furniture that<br> will always BE ON-TREND</p>
                     </div>
-                </div>
-            </div>
+        	    </li>
+        	    
+        	    <li>
+                   <span class="product-bg-hover green-bg-hover"></span>
+                   <div class="product green-product">
+                       <img src="img/index/fur2.png">
+                    </div>
+                   <div class="product-name-hover green-name-hover">
+                      <p>Stylish fixes <br>
+                for your SAMLL SPACE</p>
+                    </div>
+        	    </li>
+        	    
+        	    <li>
+                   <span class="product-bg-hover brown-bg-hover"></span>
+                   <div class="product brown-product">
+                       <img src="img/index/fur3.png">
+                    </div>
+                   <div class="product-name-hover brown-name-hover">
+                       <p>Stylish fixes <br>
+                for your SAMLL SPACE</p>
+                    </div>
+        	    </li>
+        	    
+        	    <li>
+                   <span class="product-bg-hover purple-bg-hover"></span>
+                   <div class="product purple-product">
+                       <img src="img/index/fur4.png">
+                    </div>
+                   <div class="product-name-hover purple-name-hover">
+                      <p>A modern alternative for home,<br>
+                 office or retail spaces.<br> ENTIRELY HANDMADE.</p>
+                    </div>
+        	    </li>
+        	    
+        	    <li>
+                   <span class="product-bg-hover gray-bg-hover"></span>
+                   <div class="product gray-product">
+                       <img src="img/index/fur5.png">
+                    </div>
+                   <div class="product-name-hover gray-name-hover">
+                       <p>which takes its inspiration<br>
+                from the mast arrangements of <br>
+                CLASSIC MOOD IN 80s</p>
+                    </div>
+        	    </li>
+        	    
+        	    <li>
+                   <span class="product-bg-hover bluish-bg-hover"></span>
+                   <div class="product bluish-product">
+                       <img src="img/index/fur6.png">
+                    </div>
+                   <div class="product-name-hover bluish-name-hover">
+                       <p>Everything is made by hand <br>
+                with meticulous attention</p>
+                    </div>
+        	    </li>
+        	    <li>
+        	        <span class="product-explain">
+        	            <p>It is an interior company reflecting<br>various themes <br> and moods reflecting various <br> aspects of the concept.</p>
+        	       </span>
+        	    </li>
+            </ul>
+            	    
+        </div><!--6개 감싸는 div END-->
+       
+    
+    </article><!----------------------furniture in color END---------------->
+    
+    <article class="main-slide">
+        <div class="common-label03">
+            <p class="leftline03">
+                TIME COLLECTION
+            </p><!--leftline div End-->
         </div>
-    </div>
-</section>
+        
+        <div class="slide-wrap">
+        	<p class="subject02">CO-CREATIVE DESIGN</p>
+        	
+        	<div class="slide-container">
+        		<div class="slide-text">
+        			<h3>HOUSE TOUR :</h3>
+                    <h4>A COUNTRY HOME PLAYS <br>
+                    WITH GOTHIC DECOR</h4>
+                    <P>The interiors were always charming, enough so that<br>
+                    the pair lived in the home as it was when <br>
+                    they first received the key and took the time to <br>
+                    notice how the spaces would end up being used<br>
+                    before Modern Times made any changes.</P>
+        		</div>
+        		
+        		<div id="container" class="slide-box">
+					<ul id="example1">
+						<li>
+							<img src="img/index/co1.jpg" width="600" height="200" alt="product slide" />
+						</li>
+						<li>
+							<img src="img/index/co2.jpg" alt="product slide" />
+						</li>
+						<li>
+							<img src="img/index/co3.jpg" alt="product slide" />
+						</li>
+						<li>
+							<img src="img/index/co4.jpg"  alt="product slide" />
+						</li>
+						<li>
+							<img src="img/index/co5.jpg" alt="product slide" />
+						</li>
+					</ul>
+            </div>
+        		
+        	</div>
+        </div>
+    </article>
+    
+
+    <article class="mainOriginal">
+    	<div class="original-bg">
+    		<p>ORIGINAL EXPERIENCE</p>
+    	</div>
+    	<div class="original-btn">
+    		<p>The garden and the living room with<br>
+                a large window in the wall are <br>
+                a liberating space for peaple to gather together.</p>
+            <a href="lookbook.html"><img src="img/index/ticket.png" alt="lookbookbotton"></a>    
+    	</div>
+    </article>
+    
+    <article class="mainGlobe">
+    
+    	<div class="common-label04">
+            <p class="leftline04">
+                TIME EVERYWHERE
+            </p>
+        </div>
+        
+    	<div class="globe-wrap">
+    		<p class="subject03">ACROSS THE GLOBE</p>
+    		
+    		<div class="map-container">
+    			<div class="map-point">
+    				<div class="seoul"><img src="img/index/point.gif" alt="map pointer"></div>
+    				<div class="newyork"><img src="img/index/point.gif" alt="map pointer"></div>
+    				<div class="tokyo"><img src="img/index/point.gif" alt="map pointer"></div>
+    				<div class="osaka"><img src="img/index/point.gif" alt="map pointer"></div>
+    			</div>
+    			<div class="office">
+    				<div class="office-seoul"></div>
+    				<div class="office-newyork"></div>
+    				<div class="office-tokyo"></div>
+    				<div class="office-osaka"></div>
+    			</div>
+    		</div>
+    	</div>
+    	
+    </article>    
+</section>   
+     
+<footer>
+	<ul>
+		<li><img src="img/whitelogo.png" alt="footer logo"></li>
+		<li>
+			<span>SEOUL Modern Times</span>
+			<p>T : 02-558-1234<br>
+			Mail : <a href="mailto:seoumt@m-times.co.kr">seoulmt@m-times.co.kr</a><br>
+			648, Samseong-ro, Gangnam-gu, Seoul				
+			</p>
+		</li>
+		<li>
+			<span>TOKYO Modern Times</span>
+			<p>T : 0120-184-012<br>
+			Mail : <a href="tokyomt@m-times.co.jp"> tokyomt@m-times.co.jp</a><br>
+			530-0041 大阪府大阪市北区天神橋4-8-27			
+			</p>
+		</li>
+		<li>
+			<span>OSAKA Modern Times</span>
+			<p>T : 0514-297-534<br>
+			Mail : <a href="osakamt@m-times.co.jp">osakamt@m-times.co.jp</a><br>
+			870-0249 石川県野々市市高橋町20-17	
+			</p>
+		</li>
+		<li>
+			<span>NEWYORK Modern Times</span>
+			<p>T : 202-456-1111<br>
+			Mail : <a href="newyorkmt@m-times.com">newyorkmt@m-times.com</a><br>
+			1600 Pennsylvania Ave NW, Washington, DC
+			</p>
+		</li>
+	</ul>
+	<p>&copy;Modern Times Inc. All Rights Reserved.</p>
+</footer> 
+  
 </body>
 </html>
