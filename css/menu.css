@@ -27,7 +27,7 @@
 	position:fixed;
 	top:0;
 	left:0;
-	z-index:100;
+	z-index:99999;
 	background:#000;
 	display:none;}
 .menu{
@@ -91,7 +91,7 @@
 	position:fixed;
 	top:0;
 	left:0;
-	z-index:100;
+	z-index:99999;
 	background:#000;
 	display:none;}
 .menu{
@@ -156,7 +156,7 @@
 	position:fixed;
 	top:0;
 	left:0;
-	z-index:100;
+	z-index:99999;
 	background:#000;
 	display:none;}
 .menu{

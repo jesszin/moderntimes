@@ -606,18 +606,16 @@
 
 
 	.sub>ul{
-		padding-top:10px;
-		width:381px;
+		width:100%;
 		padding:20px 0;
 		background:#dfdec9;
 		display:none;
 		z-index:10;}/*메뉴 내려오는애*/
 	.sub>ul>li{
-		margin-left:110px;
-		width:200px;
+		width:100%;
 		height:40px;
 		line-height:40px;
-		text-align:left;
+		text-align:center;
 		z-index:10;}
 
 	.sub>ul>li:hover{
@@ -1093,18 +1091,16 @@
 
 
 	.sub>ul{
-		padding-top:10px;
-		width:748px;
+		width:100%;
 		padding:20px 0;
 		background:#dfdec9;
 		display:none;
 		z-index:10;}/*메뉴 내려오는애*/
 	.sub>ul>li{
-		margin-left:250px;
-		width:200px;
+		width:100%;
 		height:40px;
 		line-height:40px;
-		text-align:left;
+		text-align:center;
 		z-index:10;}
 
 	.sub>ul>li:hover{
